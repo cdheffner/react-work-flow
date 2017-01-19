@@ -1,15 +1,38 @@
-body, a{
-    background-color:#3B3738;
-    color:#05A5D1;
+body, a {
+  background-color: #3B3738;
+  color: #05A5D1;
 }
-nav{
-    border: solid 1px #05A5D1;
+
+nav {
+  border: solid 1px #05A5D1;
+  margin: 10px 0;
 }
-nav ul{
-   display: flex;
-  flex-flow: row wrap;
+
+nav ul {
+  display: inline-flex;
 }
-nav li{
-    padding:10px;
-    list-style-type: none;
+
+nav ul li {
+  padding: 0 10px;
+  list-style-type: none;
+}
+
+section {
+  height: 85%;
+  border: 1px solid red;
+  text-align: center;
+}
+
+footer {
+  margin: 10px 0;
+  border: solid 1px #05A5D1;
+}
+
+footer ul {
+  display: inline-flex;
+}
+
+footer ul li {
+  padding: 0 10px;
+  list-style-type: none;
 }

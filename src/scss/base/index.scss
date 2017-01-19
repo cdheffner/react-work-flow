@@ -1,0 +1,36 @@
+@import 'variables';
+
+
+
+
+body, a {
+  background-color: $background;
+  color:$text;
+}
+nav{
+  border: $navborder;
+  margin:$margin10tb;
+}
+nav ul{
+  display: $flexnav;
+}
+nav ul li{
+  padding: $pad10lr;
+  list-style-type: $nostyle;
+}
+section{
+  height: 85%;
+  border: 1px solid red;
+  text-align: center;
+}
+footer{
+  margin: $margin10tb;
+  border: $navborder;
+}
+footer ul{
+  display: $flexnav;
+}
+footer ul li{
+  padding: $pad10lr;
+  list-style-type: $nostyle;
+}

@@ -4,11 +4,9 @@ export default class ViewB extends React.Component{
   render(){
     return(
       <div>
-      <nav>
-        <ul>
-          <li><a>viewb</a></li>
-        </ul>
-      </nav>
+      <section>
+        <h1>This Is The API Page!!</h1>
+      </section>
       </div>
     )
   }
