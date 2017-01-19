@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "start" : "webpack -w",
-    "sass" : "node-sass --output-style expanded ./src/scss/base/index.scss -o ./dist/css"
+    "scss" : "node-sass --output-style expanded ./src/scss/base/index.scss -o ./dist/css"
   },
   "repository": {
     "type": "git",
