@@ -8,6 +8,7 @@
 Retrieve the source code:  
 `$ git clone https://github.com/joshcode16/react-work-flow`  
 
+
 Install necessary front-end dependencies:  
 `$ npm i`  
 
@@ -18,4 +19,3 @@ _For viewing the client without the server available:_
 `$ sudo npm i -g local-server`  
 `$ cd dist`  
 `$ live-server`  
-
