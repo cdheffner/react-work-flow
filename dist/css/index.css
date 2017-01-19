@@ -1,0 +1,15 @@
+body, a{
+    background-color:#3B3738;
+    color:#05A5D1;
+}
+nav{
+    border: solid 1px #05A5D1;
+}
+nav ul{
+   display: flex;
+  flex-flow: row wrap;
+}
+nav li{
+    padding:10px;
+    list-style-type: none;
+}

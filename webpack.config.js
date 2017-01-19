@@ -1,6 +1,6 @@
 module.exports = {
   context: `${__dirname}/src`,
-  entry: ['./App.jsx'],
+  entry: './App.jsx',
 
   output: {
     path: `${__dirname}/dist/js`,
@@ -10,7 +10,9 @@ module.exports = {
 
   resolve: {
     extensions: ['', '.js', '.jsx'],
-    alias: {}
+    alias: {
+      Const: `${__dirname}/src/views/Const`
+    }
   },
 
   module: {
