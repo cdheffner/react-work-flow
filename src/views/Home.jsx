@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default class ViewA extends React.Component{
-  render(){
+const Home = () => {
     return(
       <div>
       <section>
@@ -10,5 +9,5 @@ export default class ViewA extends React.Component{
       </section>
       </div>
     )
-  }
 }
+export default Home

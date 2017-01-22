@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default class ViewB extends React.Component{
-  render(){
+const API = () => {
     return(
       <div>
       <section>
@@ -9,5 +8,5 @@ export default class ViewB extends React.Component{
       </section>
       </div>
     )
-  }
 }
+export default API
