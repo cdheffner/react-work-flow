@@ -28,6 +28,10 @@ footer {
   border: solid 1px #05A5D1;
 }
 
+.ftitle {
+  text-align: center;
+}
+
 footer ul {
   display: inline-flex;
 }

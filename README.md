@@ -19,3 +19,10 @@ Start the Webpack and Sass watchers:
 * `$ npm run scss` (Compile CSS)
 * `$ npm start` (Webpack)
 * `$ npm run serve` (For viewing the client without the server available)
+
+_Backend Requirements:_  
+Python 2.7+ and Mongo 3.2+ are required.
+
+_To install and run the server:_  
+`$ python setup.py install`  
+`$ nerfwarsapi`
