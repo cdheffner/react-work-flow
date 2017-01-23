@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom'
 import { Link, Route, Router, browserHistory, IndexRoute } from 'react-router'
 import Navbar from 'Const/Navbar'
 import Footer from 'Const/Footer'
-import ViewA from './views/ViewA'
-import ViewB from './views/ViewB'
+import Home from './views/Home'
+import API from './views/API'
+import About from './views/About'
 
 
 function App({ children }) {
@@ -20,8 +21,9 @@ function App({ children }) {
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path='/' component={App}>
-    <IndexRoute component={ViewA}/>
-    <Route path='/b' component={ViewB}/>
+    <IndexRoute component={Home}/>
+    <Route path='/api' component={API}/>
+    <Route path='/about' component={About}/>
     {/*
       <IndexRoute component={...}/>
       <Route path='/...' component={...}/>

@@ -12,12 +12,10 @@ Retrieve the source code:
 Install necessary front-end dependencies:  
 `$ npm i`  
 
-Start the Webpack and Sass watchers:  
-`$ npm run scss` (Compile CSS)
-`$ npm start` (Webpack)
-
-
 _For viewing the client without the server available:_  
 `$ sudo npm i -g local-server`  
-`$ cd dist`  
-`$ live-server`  
+
+Start the Webpack and Sass watchers:  
+* `$ npm run scss` (Compile CSS)
+* `$ npm start` (Webpack)
+* `$ npm run serve` (For viewing the client without the server available)
