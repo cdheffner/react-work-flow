@@ -1,2 +1,6 @@
 bundle.js
 node_modules/
+build
+**/*/*.pyc
+**/*.egg-info
+**/*.egg

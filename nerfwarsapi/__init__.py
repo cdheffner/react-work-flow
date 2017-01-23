@@ -8,8 +8,7 @@ temp_settings = {
 }
 
 NERFWARSAPI = Eve(
-    settings = temp_settings,
-    debug = true
+    settings = temp_settings
 )
 
 NERFWARSAPI.register_blueprint(apiblueprint, url_prefix='/api')
@@ -19,5 +18,6 @@ NERFWARSAPI.register_blueprint(uiblueprint, url_prefix='/')
 def server(host="0.0.0.0", port=3000):
     return NERFWARSAPI.run(
         host=host,
-        port=port
+        port=port,
+        debug=True
     )
